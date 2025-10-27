@@ -27,7 +27,9 @@ img{
     height:200px;
 }
 /* Challenge 9: Change the padding to 40px for all divs */
-
+div{
+    padding:40px;
+}
 /* Challenge 10: For the HTML element with an id of "main_container" change 
                 1) the size of the font to 24pt, 
                 2) family of font to "Arial", 
