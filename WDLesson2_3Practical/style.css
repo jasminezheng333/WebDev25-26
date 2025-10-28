@@ -15,7 +15,7 @@ img{
 #bannerSeparator{
     height:10px;
     border:0px solid white;
-    background-image: linear-gradient(right blue white)
+    background-image: linear-gradient(to right blue white);
 }
 
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
