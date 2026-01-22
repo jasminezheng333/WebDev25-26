@@ -4,7 +4,16 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
+      let len = parseFloat(document.getElementById("1").value);
+      let wid = parseFloat(document.getElementById("w").value);
+      let op =document gEBI("output");
+      let A =len * wid;
+      op.innerHTML=A;
+                  ="Area is:" A;
 
+      let P =2 * (l+w)
+      op.innerHTML=;
+                  ="Perimeter is:" P;
 }
 
 function recPerimeter(){
@@ -20,7 +29,7 @@ function recPerimeter(){
 let pi = 3.1415926;
 
 function cirArea(){
-
+      let
 }
 
 function cirPerimeter(){
