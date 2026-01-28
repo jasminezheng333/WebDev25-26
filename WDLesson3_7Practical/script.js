@@ -26,6 +26,7 @@ let p=parseFloat(document.getElementById("p").value);
 let r=parseFloat(document.getElementById("r").value);
 let n=parseFloat(document.getElementById("n").value);
 let t=parseFloat(document.getElementById("t").value);
-let a= p * Math.pow((1+(r/n, n*t) ;
+let a= p * Math.pow(1+(r/n, n*t)) ;
 let op= document.getElementsById("output2");
-op.innerHTML= The final amount is ${a};
+op.innerHTML= 'The final amount is ${a}';
+}
