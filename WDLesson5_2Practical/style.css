@@ -1,0 +1,49 @@
+html, body{ 
+  height:100%;
+  margin:0 auto;
+  background-image: url("pizzaBK.jpg");
+  background-size: cover;
+}
+.container{
+  display:flex;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+#banner{
+  background-color:white;
+}
+#output{
+  padding:20px;
+  flex-wrap: wrap;
+  /* Challenge 3: Set flex-wrap to wrap */
+}
+input[type="button"]{
+  width:100%;
+  margin-top: 10px;
+} 
+input[type="text"]{
+  width:124px;
+} 
+.card{
+  margin:20px;
+  background-color:white;
+  padding:10px;
+  border:1px solid gray;
+  border-radius:10px;
+  box-shadow:2px 2px 2px black;
+  /* Challenge 4: Set the flex to 0 0 150px and text aligned to cneter */
+  flex:150px;
+  text-align: center;
+}
+
+/* Challenge 5: Create CSS class rule named pizza to used with the pizza images 1) 200px for the image2) Set object-fit to cover;*/
+.pizza {
+  width: 200px;
+  object-fit: cover;
+}
+/* Challenge 6: Create CSS class rule named title to used with the title images.  Set height to 50px*/
+.title {
+  height: 50px;
+}
