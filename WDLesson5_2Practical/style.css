@@ -34,7 +34,7 @@ input[type="text"]{
   border-radius:10px;
   box-shadow:2px 2px 2px black;
   /* Challenge 4: Set the flex to 0 0 150px and text aligned to cneter */
-  flex:150px;
+  flex:0 0 150px;
   text-align: center;
 }
 
