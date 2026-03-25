@@ -25,11 +25,11 @@ function balance(){
                             <td>${t}</td>
                             <td>$${A.toFixed(2)}</td>
                     </tr>`;
-
+        }
         build += "</table>";
     op.innerHTML = build;
 }
-}
+
 
 
 /* Challenge Bonus: Allow the user to enter n.  This will require you to modify,
@@ -40,3 +40,24 @@ function balance(){
               b. n = 12 then the interest is compounded monthly
               c. n = 4 then the interest is compounded quaterly.
 */
+
+function balance2(){
+        let op = document.getElementById("output");
+        let P = parseFloat(document.getElementById("p").value);
+        let r = parseFloat(document.getElementById("r").value);
+        let year = parseFloat(document.getElementById("t").value);
+        let n = parseFloat(document.getElementById("n").value);
+        let build = "";
+        build += `<table>
+                        <tr>    <th>Year</th>   <th>Balance</th>    </tr>`;
+
+        for (let t = 0; t<=year ; t++) {
+            let A = P * Math.pow( 1+ (r/100)/n, n*t);
+            build+=`<tr>
+                            <td>${t}</td>
+                            <td>$${A.toFixed(2)}</td>
+                    </tr>`;
+        }
+        build += "</table>";
+    op.innerHTML = build;
+}
