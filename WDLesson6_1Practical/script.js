@@ -36,7 +36,7 @@ function init(){
       <div class="card">
         <h2>${meat_titles[i]}</h2>
         <img src="images/${meat_images[i]}">
-        <h3>${meat_prices[i]}</h3>
+        <h3>$${meat_prices[i]}</h3>
       </div>`;
   }
   m.innerHTML = build;
@@ -47,7 +47,7 @@ function init(){
       <div class="card">
         <h2>${seafood_titles[i]}</h2>
         <img src="images/${seafood_images[i]}">
-        <h3>${seafood_prices[i]}</h3>
+        <h3>$${seafood_prices[i]}</h3>
       </div>`;
   }
   s.innerHTML = build;
@@ -58,7 +58,7 @@ function init(){
       <div class="card">
         <h2>${dessert_titles[i]}</h2>
         <img src="images/${dessert_images[i]}">
-        <h3>${dessert_prices[i]}</h3>
+        <h3>$${dessert_prices[i]}</h3>
       </div>`;
   }
   d.innerHTML = build;
