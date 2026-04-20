@@ -48,7 +48,7 @@ function showMeats(){
 Make the title a heading(h3), place the image in the middle, and make the price a paragraph.
 2) Change the title to "Meats".*/
 
-for(let i = 0; i < meats.length; i++){
+c
   build +=`<div class="card">
               <h3>${meats[i].title}</h3>
               <img src="images/${meats[i].image}">
